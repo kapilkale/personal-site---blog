@@ -1,0 +1,18 @@
+/* line 1, ../../sass/application.scss */
+html {
+  height: 101%;
+}
+
+/* line 7, ../../sass/application.scss */
+#all_content {
+  overflow: hidden;
+  min-width: 960px;
+}
+
+/* line 15, ../../sass/application.scss */
+#container {
+  margin: 0 auto;
+  width: 500px;
+  position: relative;
+  z-index: 1;
+}

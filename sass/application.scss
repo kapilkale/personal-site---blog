@@ -1,0 +1,21 @@
+html {
+  // Always scrollbar.
+  height: 101%;
+}
+
+// So absolutely positioned stuff wont extend browser window.
+#all_content {
+  // To cut off absolutely positioned clouds.
+  overflow: hidden;
+  // So we get a scrollbar when zoomed in.
+  min-width: 960px;
+}
+
+// Fixed width for actual content.
+#container {
+  margin: 0 auto;
+  width: 500px;
+  // This is so lower absolute stuff goes above %html bg color.
+  position: relative;
+  z-index: 1;
+}
