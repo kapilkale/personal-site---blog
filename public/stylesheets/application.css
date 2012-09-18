@@ -1,18 +1,53 @@
-/* line 1, ../../sass/application.scss */
-html {
-  height: 101%;
-}
+/*
+ * ---------- WEB FONTS ---------- *
+ */
+@font-face {
+  font-family: 'MuseoSans';
+  src: url("/webfonts/museosans_300-webfont.eot");
+  src: url("/webfonts/museosans_300-webfont.eot?#iefix") format("embedded-opentype"), url("/webfonts/museosans_300-webfont.woff") format("woff"), url("/webfonts/museosans_300-webfont.ttf") format("truetype"), url("/webfonts/museosans_300-webfont.svg#MuseoSans300") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
-/* line 7, ../../sass/application.scss */
+@font-face {
+  font-family: 'MuseoSans';
+  src: url("/webfonts/museosans_500-webfont.eot");
+  src: url("/webfonts/museosans_500-webfont.eot?#iefix") format("embedded-opentype"), url("/webfonts/museosans_500-webfont.woff") format("woff"), url("/webfonts/museosans_500-webfont.ttf") format("truetype"), url("/webfonts/museosans_500-webfont.svg#MuseoSans500") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+html {
+  font-family: "MuseoSans", "helvetica neue", "helveticaneue", "helveticaneueroman", "helveticaneue-roman", "helvetica neue roman", Arial, Helvetica, Verdana, Tahoma, Sans-serif; }
+
+/*
+ * ---------- CSS ---------- *
+ */
+html {
+  height: 101%; }
+
 #all_content {
   overflow: hidden;
-  min-width: 960px;
-}
+  min-width: 300px; }
 
-/* line 15, ../../sass/application.scss */
 #container {
   margin: 0 auto;
-  width: 500px;
+  margin-top: 60px;
+  width: 300px;
   position: relative;
-  z-index: 1;
-}
+  z-index: 1; }
+
+p {
+  font-size: 14px;
+  color: #444;
+  line-height: 150%;
+  margin: 30px 0; }
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444; }
+
+a:hover {
+  color: #f60; }
+
+img#email_address {
+  display: none; }
