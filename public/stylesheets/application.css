@@ -22,7 +22,8 @@ html {
  * ---------- CSS ---------- *
  */
 html {
-  height: 101%; }
+  height: 101%;
+  margin: 0 0; }
 
 #all_content {
   overflow: hidden;
