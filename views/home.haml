@@ -33,7 +33,9 @@
         What I do:
         = succeed "," do  
           %a{:href => "http://www.giftrocket.com/gift-card-worth", :target => "_"} web development and design
-        search marketing, data analysis, powerpoint presentations, long-form blogging.
+        search marketing, data analysis, powerpoint presentations, 
+        = succeed "." do  
+          %a{:href => "/blog"}blogging
       %p
         I live in San Francisco and like meeting other entrepreneurs. 
       %p 
@@ -47,3 +49,4 @@
         %a{:href => "https://twitter.com/kapilvkale", :target => "_"} Twitter
 
       %img{:src => "/e.jpg", :id => 'email_address'}
+      = haml :footer

@@ -53,9 +53,10 @@ a:hover {
 img#email_address {
   display: none; }
 
+hr#footer_line {
+  color: #ddd; 
+}
+
 .footer {
-  margin-top: 60px;
-  border-top: 1px solid #ccc;
-  padding-top: 5px;
-  color: #ccc;
+  color: #aaa;
   font-size: 12px; }
