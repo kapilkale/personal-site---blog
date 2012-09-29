@@ -1,3 +1,11 @@
+---
+layout: post
+title: "First post"
+date_published: "8/7/1985" 
+author: Kapil
+---
+
+sdfd sldfdsf
 
 Welcome to our blog! In this space we plan to feature gift ideas, talk about trends in gift giving, and explore ways to make gift giving easier for the sender and more enjoyable for the recipient. For example, in the next few days we will be posting about some great Father's Day gift ideas. If you have any ideas or requests for stuff you'd like to see on this blog, feel free to email us at blog@giftrocket.com.
 

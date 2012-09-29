@@ -59,4 +59,18 @@ hr#footer_line {
 
 .footer {
   color: #aaa;
-  font-size: 12px; }
+  font-size: 12px; 
+}
+
+/*
+ * ---------- blog ---------- *
+ */
+
+body#post {
+  #all_content {
+    min-width: 450px;
+  }
+  #container {
+    width: 450px;
+  }
+}
