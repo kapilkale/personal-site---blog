@@ -52,11 +52,18 @@ img#email_address {
 }
 
 .footer {
-  margin-top: 60px;
-  border-top: 1px solid #ccc;
+  margin: 25px 0;
   padding-top: 5px;
   color: #ccc;
   font-size: 12px;
+  a {
+    color: #888;
+    font-weight: normal;
+    margin-right: 15px;
+  }
+  a:hover {
+    color: #4A4;
+  }
 }
 
 // Smaller container for homepage.

@@ -1,0 +1,12 @@
+---
+layout: default
+title: Blog Home
+---
+
+{% for post in site.posts limit:5 %}
+  <h2 class="post_title"><a href="/blog{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post_subheader">{{ post.date_published }} by {{ post.author }}</p>
+  <div class="post_content">
+    {{ post.content }}
+  </div>
+{% endfor %}

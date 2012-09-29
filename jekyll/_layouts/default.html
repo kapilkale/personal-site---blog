@@ -22,21 +22,10 @@
   <body id="post">
     <div id="all_content">
       <div id="container">
-        <!-- post info -->
-        <h2 class="post_title"><a href="/blog{{ page.url }}">{{ page.title }}</a></h2>
-
-        <p class="post_subheader">{{ page.date_published }} by {{ page.author }}</p>
-
-        <div class="post_content">
-          {{ content }}
-        </div>
+        {{ content }}
         <div class="footer">
           <a href="/">Home</a>
           <a href="/blog">Blog</a>
-        </div>
-        <div class="comment_box">
-          <fb:comments href="http://www.kapilkale.com/blog{{ page.url }}" num_posts="10" width="400px"></fb:comments>
-          <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
         </div>
       </div>
     </div>
