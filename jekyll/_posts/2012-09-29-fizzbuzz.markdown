@@ -11,7 +11,7 @@ The reason programmers fail Fizzbuzz is because Fizzbuzz isn't a "coding" test. 
 
 In fact, it's pretty easy to separate the coding part from the analytical thinking part. Ask some smart business analysts with no coding experience to [solve FizzBuzz in Excel](https://docs.google.com/spreadsheet/ccc?key=0AhFDbIGnRB-LdE94YmhaLU43T1lCRW1IWmhEV1ZJblE). All should be able to do it. 
 
-Those interviewing for entry-level business analyst positions aren't expected to be fluent in Excel. Excel is just a tool used to get the job done. They are, however, expected to be bale to solve business problems, and are usually tested on that skill with case interviews and such.
+Those interviewing for entry-level business analyst positions aren't expected to be fluent in Excel. Excel is just a tool used to get the job done. They are, however, expected to be able to solve business problems, and are usually tested on that skill with case interviews and such.
 
 It isn't fair to conclude that these entry-level programmers don't know how to code. They'd probably be able to translate pseudocode into a working program \[1\]. But the real issue is that they don't know how to solve problems analytically, which is far more valuable. That's the reason Fizzbuzz is an important test.
 
