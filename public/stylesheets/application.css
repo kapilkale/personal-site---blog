@@ -59,3 +59,11 @@ body#post h2.post_title {
 body#post p.post_subheader {
   color: #999;
   margin: 0 0 20px 0; }
+
+.social_buttons {
+  float: right;
+  overflow: hidden;
+  padding-top: 4px; }
+  .social_buttons div {
+    float: right;
+    padding-left: 4px; }

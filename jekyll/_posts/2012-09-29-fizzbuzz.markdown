@@ -5,7 +5,7 @@ date_published: "9/29/2012"
 author: Kapil
 ---
 
-I was shocked when I first read Jeff Atwood's post about [programmers who can't program](http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html). Those who've formally studied computer science should be able to write if-then statements, right?
+I was shocked when I first read Jeff Atwood's post about [programmers who can't program](http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html). Those who have formally studied computer science should be able to write if-then statements, right?
 
 The reason programmers fail Fizzbuzz is because Fizzbuzz isn't a "coding" test. It's an analytical thinking test. And these "programmers" don't know how to think analytically.
 

@@ -87,3 +87,13 @@ body#post {
     margin: 0 0 20px 0;
   }
 }
+
+.social_buttons {
+  float: right;
+  overflow: hidden;
+  padding-top: 4px;
+  div {
+    float: right;
+    padding-left: 4px;
+  }
+}
