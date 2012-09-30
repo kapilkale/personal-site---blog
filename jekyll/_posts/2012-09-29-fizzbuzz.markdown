@@ -1,16 +1,22 @@
 ---
 layout: post
-title: "FizzBuzz isn't a coding test"
+title: "Fizzbuzz isn't a coding test"
 date_published: "9/29/2012" 
 author: Kapil
 ---
 
-I was shocked when I first read Jeff Atwood's post about [programmers who can't program](http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html). If you've spent a few years studying computer science, you should be able to write basic if-then statements, right?
+I was shocked when I first read Jeff Atwood's post about [programmers who can't program](http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html). Those who've formally studied computer science should be able to write if-then statements, right?
 
-Fizzbuzz isn't a "coding" test. It's an analytical thinking test. 
+The reason programmers fail Fizzbuzz is because Fizzbuzz isn't a "coding" test. It's an analytical thinking test. And these "programmers" don't know how to think analytically.
 
-Compare a foreign language test asking you to conjugate verbs vs. a foreign language test where you ask a foreigner how to get directions to the market. One tests syntax and understanding of the language, whereas the other tests a higher order ability to solve problems where the language is just the tool used to get the job done.
+In fact, it's pretty easy to separate the coding part from the analytical thinking part. Ask some smart business analysts with no coding experience to [solve FizzBuzz in Excel](https://docs.google.com/spreadsheet/ccc?key=0AhFDbIGnRB-LdE94YmhaLU43T1lCRW1IWmhEV1ZJblE). All should be able to do it. 
 
-In fact, it's pretty easy to separate the coding part from the analytical thinking part. Ask a few business analysts (consultants, bankers, etc) to solve FizzBuzz in Excel. Nearly all of them will be able to do it. When you interview for most entry-level business analyst positions, no one expects you to be extremely competent at Excel. Excel is just the tool that an analyst uses to get the job done. The more important thing worth testing is their ability to solve problems, which is usually done through other tests like case interviews.
+Those interviewing for entry-level business analyst positions aren't expected to be fluent in Excel. Excel is just a tool used to get the job done. They are, however, expected to be bale to solve business problems, and are usually tested on that skill with case interviews and such.
 
-In my opinion it isn't fair to conclude that these entry-level programmers don't know how to code. I'm sure if you gave them pseudocode for a site, they'd be able to implement it just fine. The issue is that they don't know how to solve problems analytically, which in most business situations is far more valuable.
+It isn't fair to conclude that these entry-level programmers don't know how to code. They'd probably be able to translate pseudocode into a working program \[1\]. But the real issue is that they don't know how to solve problems analytically, which is far more valuable. That's the reason Fizzbuzz is an important test.
+
+As an employer, the lesson here might be to stop looking for people who know how to write code, and instead find people who already have the higher-order thinking down and teach them.
+
+#### Notes
+
+\[1\] I very well might be wrong here.
