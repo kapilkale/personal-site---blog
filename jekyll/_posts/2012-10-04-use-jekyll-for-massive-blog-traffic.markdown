@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Use Jekyll To Keep Your Blog From Folding Under Traffic"
-date_published: "9/29/2012" 
+date_published: "10/4/2012" 
 author: Kapil
 ---
 
