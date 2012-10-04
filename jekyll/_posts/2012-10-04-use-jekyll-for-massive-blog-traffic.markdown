@@ -18,7 +18,7 @@ Scaling up  processes manually on AWS or Heroku works but is slightly annoying s
 This solution has held up to a couple hundred concurrent visitors with a single Heroku process with no perceptible decrease in performance \[1\], and I'm pretty sure I'm not even doing it right. \[2\]
 
 This blog's code is [hosted publicly on Github](https://github.com/kapilkale/personal-site---blog) and demonstrates the simplicity behind Jekyll's implementation.
-* There's a basic Sinatra app. \[3\], which is probably unnecessary but I keep for personal purposes.
+* There's a basic Sinatra app. \[3\]
 * There's a \_config.yml in the repo citing where posts are written in markdown, and where they'll be sent to when compiled.
 * There's a layout for posts.
 * Typing Jekyll into the command line compiles the posts into HTML files.
