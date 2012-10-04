@@ -1,69 +1,113 @@
+/* line 2, ../../sass/application.scss */
 html {
-  font-family: "MuseoSans", "helvetica neue", "helveticaneue", "helveticaneueroman", "helveticaneue-roman", "helvetica neue roman", Arial, Helvetica, Verdana, Tahoma, Sans-serif; }
+  font-family: "MuseoSans", "helvetica neue", "helveticaneue", "helveticaneueroman", "helveticaneue-roman", "helvetica neue roman", Arial, Helvetica, Verdana, Tahoma, Sans-serif;
+}
 
 /*
  * ---------- CSS ---------- *
  */
+/* line 10, ../../sass/application.scss */
 html {
   height: 101%;
-  margin: 0 0; }
+  margin: 0 0;
+}
 
+/* line 17, ../../sass/application.scss */
 #all_content {
   overflow: hidden;
-  min-width: 400px; }
+  min-width: 400px;
+}
 
+/* line 25, ../../sass/application.scss */
 #container {
   margin: 0 auto;
   margin-top: 60px;
   width: 400px;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+}
 
+/* line 34, ../../sass/application.scss */
 p {
   font-size: 14px;
   color: #444;
   line-height: 150%;
-  margin: 30px 0; }
+  margin: 30px 0;
+}
 
+/* line 41, ../../sass/application.scss */
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #444; }
+  color: #444;
+}
 
+/* line 46, ../../sass/application.scss */
 a:hover {
-  color: #4A4; }
+  color: #4A4;
+}
 
+/* line 50, ../../sass/application.scss */
 img#email_address {
-  display: none; }
+  display: none;
+}
 
+/* line 54, ../../sass/application.scss */
 .footer {
   margin: 25px 0;
   padding-top: 5px;
   color: #ccc;
-  font-size: 12px; }
-  .footer a {
-    color: #888;
-    font-weight: normal;
-    margin-right: 15px; }
-  .footer a:hover {
-    color: #4A4; }
+  font-size: 12px;
+}
+/* line 59, ../../sass/application.scss */
+.footer a {
+  color: #888;
+  font-weight: normal;
+  margin-right: 15px;
+}
+/* line 64, ../../sass/application.scss */
+.footer a:hover {
+  color: #4A4;
+}
 
+/* line 71, ../../sass/application.scss */
 body#home #container {
-  width: 300px; }
+  width: 300px;
+}
+
+/* line 77, ../../sass/application.scss */
+ol, ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 80, ../../sass/application.scss */
+ol li, ul li {
+  font-size: 13px;
+  line-height: 150%;
+  margin-bottom: 5px;
+}
 
 /*
  * ---------- blog ---------- *
  */
+/* line 93, ../../sass/application.scss */
 body#post h2.post_title {
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
+/* line 96, ../../sass/application.scss */
 body#post p.post_subheader {
   color: #999;
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0;
+}
 
+/* line 102, ../../sass/application.scss */
 .social_buttons {
   float: right;
   overflow: hidden;
-  padding-top: 4px; }
-  .social_buttons div {
-    float: right;
-    padding-left: 4px; }
+  padding-top: 4px;
+}
+/* line 106, ../../sass/application.scss */
+.social_buttons div {
+  float: right;
+  padding-left: 4px;
+}

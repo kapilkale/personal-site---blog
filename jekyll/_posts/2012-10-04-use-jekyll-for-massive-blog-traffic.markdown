@@ -21,7 +21,7 @@ This blog's code is [hosted publicly on Github](https://github.com/kapilkale/per
 * There's a basic Sinatra app. \[3\], which is probably unnecessary but I keep for personal purposes.
 * There's a \_config.yml in the repo citing where posts are written in markdown, and where they'll be sent to when compiled.
 * There's a layout for posts.
-* Typing <pre>Jekyll</pre> into the command line compiles the posts into HTML files.
+* Typing Jekyll into the command line compiles the posts into HTML files.
 
 Unfortunately, this leaves users to configure things like RSS feeds, sharing buttons, tags, styling, etc. But I'd expect some of the people who are trying to run traffic-heavy company or personal blogs might also want to customize such things.
 
