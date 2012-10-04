@@ -85,28 +85,29 @@ ol li, ul li {
   font-size: 13px;
   line-height: 150%;
   margin-bottom: 5px;
+  color: #444;
 }
 
 /*
  * ---------- blog ---------- *
  */
-/* line 93, ../../sass/application.scss */
+/* line 94, ../../sass/application.scss */
 body#post h2.post_title {
   margin-bottom: 5px;
 }
-/* line 96, ../../sass/application.scss */
+/* line 97, ../../sass/application.scss */
 body#post p.post_subheader {
   color: #999;
   margin: 0 0 20px 0;
 }
 
-/* line 102, ../../sass/application.scss */
+/* line 103, ../../sass/application.scss */
 .social_buttons {
   float: right;
   overflow: hidden;
   padding-top: 4px;
 }
-/* line 106, ../../sass/application.scss */
+/* line 107, ../../sass/application.scss */
 .social_buttons div {
   float: right;
   padding-left: 4px;

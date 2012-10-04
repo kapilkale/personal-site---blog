@@ -7,13 +7,13 @@ author: Kapil
 
 I've seen a lot of blogs fold under traffic, particularly on Hacker News.
 
-I'm not sure why this happens, but I've seen it happen under not-that-crazy traffic loads. Anecdotally, a HN story at around #10 will have around 100 concurrent visitors staying for 30 seconds each, so perhaps a three requests per second. I know nothing about server performance, but a setup with a few processes should be able to handle this no problem.
+I'm not sure why this happens, but I've seen it happen under not-that-crazy traffic loads. Anecdotally, a HN story at around #10 will have around 100 concurrent visitors staying for 30 seconds each. The server gets maybe three requests per second. I know nothing about server performance, but a setup with a few processes should be able to handle this no problem.
 
-One way to solve this problem is to use third-party blog services. Posterous, Tumblr, and other microblogging-as-a-service packages seem handle the traffic, at the tradeoff of hosting the blog on [their own their domain](http://ycombinator.posterous.com). This isn't great if for blogs who want the associated SEO benefit of inbound links to their own domain. Also not great for companies or people who want lots of customization (e.g. to get readers into a conversion funnel).
+One way to solve this problem is to use a third-party blog service like Posterous or Tumblr. They seem to handle the traffic, at the tradeoff of hosting the blog on [their own their domain](http://ycombinator.posterous.com). This isn't great if for blogs who want the associated SEO benefit of inbound links to their own domain. Also not great for companies or people who want lots of customization (e.g. to get readers into a conversion funnel).
 
-Scaling up  processes manually on AWS or Heroku works but is slightly annoying since it is hard to predict when traffic will spike. Programmers better than myself can probably write scripts to do this, but this seems inelegant given blog pages are static assets and should be quick to load anyway.
+Scaling up processes manually on AWS or Heroku works but is slightly annoying since it is hard to predict when traffic will spike. Programmers better than myself can probably write scripts to do this, but this seems inelegant given blog pages are static assets and should be quick to load anyway.
 
-*The best solution* I've found to the problem is to use [Jekyll](http://www.jekyllrb.com), a static site generator, to create static html files. 
+The best solution I've found to the problem is to use [Jekyll](http://www.jekyllrb.com), a static site generator, to create static html files. 
 
 This solution has held up to a couple hundred concurrent visitors with a single Heroku process with no perceptible decrease in performance \[1\], and I'm pretty sure I'm not even doing it right. \[2\]
 

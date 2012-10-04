@@ -38,13 +38,13 @@
         <div class="post_content">
           <p>I&#8217;ve seen a lot of blogs fold under traffic, particularly on Hacker News.</p>
 
-<p>I&#8217;m not sure why this happens, but I&#8217;ve seen it happen under not-that-crazy traffic loads. Anecdotally, a HN story at around #10 will have around 100 concurrent visitors staying for 30 seconds each, so perhaps a three requests per second. I know nothing about server performance, but a setup with a few processes should be able to handle this no problem.</p>
+<p>I&#8217;m not sure why this happens, but I&#8217;ve seen it happen under not-that-crazy traffic loads. Anecdotally, a HN story at around #10 will have around 100 concurrent visitors staying for 30 seconds each. The server gets maybe three requests per second. I know nothing about server performance, but a setup with a few processes should be able to handle this no problem.</p>
 
-<p>One way to solve this problem is to use third-party blog services. Posterous, Tumblr, and other microblogging-as-a-service packages seem handle the traffic, at the tradeoff of hosting the blog on <a href='http://ycombinator.posterous.com'>their own their domain</a>. This isn&#8217;t great if for blogs who want the associated SEO benefit of inbound links to their own domain. Also not great for companies or people who want lots of customization (e.g. to get readers into a conversion funnel).</p>
+<p>One way to solve this problem is to use a third-party blog service like Posterous or Tumblr. They seem to handle the traffic, at the tradeoff of hosting the blog on <a href='http://ycombinator.posterous.com'>their own their domain</a>. This isn&#8217;t great if for blogs who want the associated SEO benefit of inbound links to their own domain. Also not great for companies or people who want lots of customization (e.g. to get readers into a conversion funnel).</p>
 
 <p>Scaling up processes manually on AWS or Heroku works but is slightly annoying since it is hard to predict when traffic will spike. Programmers better than myself can probably write scripts to do this, but this seems inelegant given blog pages are static assets and should be quick to load anyway.</p>
 
-<p><em>The best solution</em> I&#8217;ve found to the problem is to use <a href='http://www.jekyllrb.com'>Jekyll</a>, a static site generator, to create static html files.</p>
+<p>The best solution I&#8217;ve found to the problem is to use <a href='http://www.jekyllrb.com'>Jekyll</a>, a static site generator, to create static html files.</p>
 
 <p>This solution has held up to a couple hundred concurrent visitors with a single Heroku process with no perceptible decrease in performance [1], and I&#8217;m pretty sure I&#8217;m not even doing it right. [2]</p>
 
