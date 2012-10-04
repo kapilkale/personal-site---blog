@@ -28,31 +28,33 @@
   <div class="post_content">
     <p>I&#8217;ve seen a lot of blogs fold under traffic, particularly on Hacker News.</p>
 
-<p>One good way to solve this problem is to use third-party hosting for your blog. Posterous, Tumblr, and other microblogging-as-a-service packages seem to do a good job handling the traffic. But this also lends itself to a problem: those blogs tend to be hosted on subdomains of their respective sites (e.g. http://ycombinator.posterous.com). This can be bad if you want either the ability to customize the page to promote your brand, or if you want the associated SEO benefit of inbound links.</p>
+<p>One way to solve this problem is to use third-party blog services. Posterous, Tumblr, and other microblogging-as-a-service packages seem handle the traffic, at the tradeoff of hosting the blog on <a href='http://ycombinator.posterous.com'>their own their domain</a>. This isn&#8217;t great if for blogs who want the associated SEO benefit of inbound links to their own domain. Also not great for companies or people who want lots of customization (e.g. to get readers into a conversion funnel).</p>
 
-<p>You can also scale up your processes manually on AWS or Heroku but this is slightly annoying since you don&#8217;t always know when traffic will spike. Programmers better than myself can probably write scripts to do this, but this seems inelegant.</p>
+<p>Scaling up processes manually on AWS or Heroku works but is slightly annoying since it is hard to predict when traffic will spike. Programmers better than myself can probably write scripts to do this, but this seems inelegant given blog pages are static assets and should be quick to load anyway.</p>
 
-<p>The thing about blog posts is that they&#8217;re static files and shouldn&#8217;t require any substantial server response time. The best solution I&#8217;ve found to the problem is to use <a href='http://www.jekyllrb.com'>Jekyll</a>, a static site generator, to create static html files.</p>
+<p>The best solution I&#8217;ve found to the problem is to use <a href='http://www.jekyllrb.com'>Jekyll</a>, a static site generator, to create static html files.</p>
 
-<p>This solution has held up to 150 concurrent visitors for a couple hours with no perceptible decrease in performance [1], and I&#8217;m pretty sure I&#8217;m not even doing it right. [2]</p>
+<p>This solution has held up to a couple hundred concurrent visitors with a single Heroku process with no perceptible decrease in performance [1], and I&#8217;m pretty sure I&#8217;m not even doing it right. [2]</p>
 
 <p>This blog&#8217;s code is <a href='https://github.com/kapilkale/personal-site---blog'>hosted publicly on Github</a> and demonstrates the simplicity behind Jekyll&#8217;s implementation.</p>
 
 <ul>
-<li>There&#8217;s a super-basic Sinatra app, which is probably unnecessary but I keep for personal purposes.</li>
+<li>There&#8217;s a basic Sinatra app. [3], which is probably unnecessary but I keep for personal purposes.</li>
 
 <li>There&#8217;s a _config.yml in the repo citing where posts are written in markdown, and where they&#8217;ll be sent to when compiled.</li>
 
-<li>There&#8217;s a layout for posts and a homepage.</li>
+<li>There&#8217;s a layout for posts.</li>
 
-<li>I type <pre>Jekyll</pre> into the command line to compile the posts into HTML files.</li>
+<li>Typing <pre>Jekyll</pre> into the command line compiles the posts into HTML files.</li>
 </ul>
 
-<p>Unfortunately, this leaves you to configure things like RSS feeds, social sharing buttons, tags, and overall style. But I&#8217;d expect some of the people who are trying to run traffic-heavy blogs might also want to customize such things.</p>
+<p>Unfortunately, this leaves users to configure things like RSS feeds, sharing buttons, tags, styling, etc. But I&#8217;d expect some of the people who are trying to run traffic-heavy company or personal blogs might also want to customize such things.</p>
 
 <p>[1]I&#8217;m hosting on the free Heroku plan for which I have one process only. We used a similar configuration for the <a href='http://www.giftrocket.com'>GiftRocket blog</a> and it held up to over a thousand concurrent visitors.</p>
 
 <p>[2] There should be a way to configure the server to render an index.html file for a given public route automatically (e.g. for a request to /blog/use-jekyll-for-massive-blog-traffic render /blog/use-jekyll-for-massive-blog-traffic/index.html). Right now, I&#8217;m having Sinatra <a href='https://github.com/kapilkale/personal-site---blog/blob/master/home.rb'>read the file</a>, which I suspect takes more time than if it were configured lower down the stack. If you know what I should be doing, would love to hear it.</p>
+
+<p>[3] Unnecessary, but I figured I might actually host some small projects here.</p>
   </div>
 
   <h2 class="post_title"><a href="/blog/fizzbuzz/">Fizzbuzz isn't a coding test</a></h2>
