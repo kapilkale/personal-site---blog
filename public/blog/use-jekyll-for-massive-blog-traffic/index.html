@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Blog | Kapil Kale</title>
+    <title>Use Jekyll To Keep Your Blog From Folding Under Trafic | Kapil Kale's Blog</title>
     <link href="/stylesheets/application.css" rel="stylesheet" type="text/css">
     <script type="text/javascript">
 
@@ -22,11 +22,21 @@
   <body id="post">
     <div id="all_content">
       <div id="container">
-        
-  <h2 class="post_title"><a href="/blog/use-jekyll-for-massive-blog-traffic/">Use Jekyll To Keep Your Blog From Folding Under Trafic</a></h2>
-  <p class="post_subheader">9/29/2012 by Kapil</p>
-  <div class="post_content">
-    <p>I&#8217;ve seen a lot of blogs fold under traffic, particularly on Hacker News.</p>
+        <div class="social_buttons">
+          <div>
+            <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.kapilkale.com/blog/use-jekyll-for-massive-blog-traffic/" data-count="vertical" data-text="Use Jekyll To Keep Your Blog From Folding Under Trafic" data-via="kapilvkale">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+          </div>
+          <div>
+            <iframe src="http://www.facebook.com/plugins/like.php?app_id=420987101301986&amp;href=http://www.kapilkale.com/blog/use-jekyll-for-massive-blog-traffic/&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:70px; padding-top:2px;" allowTransparency="true"></iframe>
+          </div>
+        </div>
+        <!-- post info -->
+        <h2 class="post_title"><a href="/blog/use-jekyll-for-massive-blog-traffic/">Use Jekyll To Keep Your Blog From Folding Under Trafic</a></h2>
+
+        <p class="post_subheader">9/29/2012 by Kapil</p>
+
+        <div class="post_content">
+          <p>I&#8217;ve seen a lot of blogs fold under traffic, particularly on Hacker News.</p>
 
 <p>One good way to solve this problem is to use third-party hosting for your blog. Posterous, Tumblr, and other microblogging-as-a-service packages seem to do a good job handling the traffic. But this also lends itself to a problem: those blogs tend to be hosted on subdomains of their respective sites (e.g. http://ycombinator.posterous.com). This can be bad if you want either the ability to customize the page to promote your brand, or if you want the associated SEO benefit of inbound links.</p>
 
@@ -53,37 +63,18 @@
 <p>[1]I&#8217;m hosting on the free Heroku plan for which I have one process only. We used a similar configuration for the <a href='http://www.giftrocket.com'>GiftRocket blog</a> and it held up to over a thousand concurrent visitors.</p>
 
 <p>[2] There should be a way to configure the server to render an index.html file for a given public route automatically (e.g. for a request to /blog/use-jekyll-for-massive-blog-traffic render /blog/use-jekyll-for-massive-blog-traffic/index.html). Right now, I&#8217;m having Sinatra <a href='https://github.com/kapilkale/personal-site---blog/blob/master/home.rb'>read the file</a>, which I suspect takes more time than if it were configured lower down the stack.</p>
-  </div>
+        </div>
 
-  <h2 class="post_title"><a href="/blog/fizzbuzz/">Fizzbuzz isn't a coding test</a></h2>
-  <p class="post_subheader">9/29/2012 by Kapil</p>
-  <div class="post_content">
-    <p>I was shocked when I first read Jeff Atwood&#8217;s post about <a href='http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html'>programmers who can&#8217;t program</a>. Those who have formally studied computer science should be able to write if-then statements, right?</p>
-
-<p>The reason programmers fail Fizzbuzz is because Fizzbuzz isn&#8217;t a &#8220;coding&#8221; test. It&#8217;s an analytical thinking test. And these &#8220;programmers&#8221; don&#8217;t know how to think analytically.</p>
-
-<p>In fact, it&#8217;s pretty easy to separate the coding part from the analytical thinking part. Ask some smart business analysts with no coding experience to <a href='https://docs.google.com/spreadsheet/ccc?key=0AhFDbIGnRB-LdE94YmhaLU43T1lCRW1IWmhEV1ZJblE'>solve FizzBuzz in Excel</a>. All should be able to do it.</p>
-
-<p>Those interviewing for entry-level business analyst positions aren&#8217;t expected to be fluent in Excel. Excel is just a tool used to get the job done. They are, however, expected to be able to solve business problems, and are usually tested on that skill with case interviews and such.</p>
-
-<p>It isn&#8217;t fair to conclude that these entry-level programmers don&#8217;t know how to code. They&#8217;d probably be able to translate pseudocode into a working program [1]. But the real issue is that they don&#8217;t know how to solve problems analytically, which is far more valuable. That&#8217;s the reason Fizzbuzz is an important test.</p>
-
-<p>For some employers, the lesson here might be to stop looking for coders with higher-order thinking, and instead find people who already have the higher-order thinking down and teach them how to code.</p>
-
-<h4 id='notes'>Notes</h4>
-
-<p>[1] I very well might be wrong here.</p>
-  </div>
-
-  <h2 class="post_title"><a href="/blog/first-post/">First post</a></h2>
-  <p class="post_subheader">9/28/2012 by Kapil</p>
-  <div class="post_content">
-    <p>Hello World.</p>
-  </div>
+        <a href="https://twitter.com/kapilvkale" class="twitter-follow-button" data-show-count="false">Follow @kapilvkale</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
         <div class="footer">
           <a href="/">Home</a>
           <a href="/blog">Blog</a>
+        </div>
+        <div class="comment_box">
+          <fb:comments href="http://www.kapilkale.com/blog/use-jekyll-for-massive-blog-traffic/" num_posts="10" width="400px"></fb:comments>
+          <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
         </div>
       </div>
     </div>
