@@ -11,4 +11,4 @@ I don't know why this is happening. My only guess is that when users upload thei
 
 And though the contacts preferred email is listed, the incorrectly fuzzy-matched email address is the one displayed in the sidebar.
 
-If you work at LinkedIn, contact me and I will send you screenshots.
+I've emailed customer services, but if you work at LinkedIn, contact me and I will send you screenshots.
