@@ -5,9 +5,9 @@ date_published: "11/28/2012"
 author: Kapil
 ---
 
-I threw out my DVD collection today. I've had these DVDs for 6 or 7 years and used to watch them all the time. Rebel Without a Cause. Ocean's Eleven. Gone.
+I threw out my DVD collection today. Rebel Without a Cause. Ocean's Eleven. Gone. I own most of them on Amazon Instant Video, so I didn't need them anymore.
 
-It's the same thing I did with my CD collection 10 years ago when I moved to MP3s. And the same thing I did with my MP3s when I moved to Spotify. Books to Kindle. Photos to Dropbox and Facebook. Notebooks to Hackpad. And I believe something similar is becoming possible with housing.
+It's the same thing I did with my CD collection 10 years ago when I moved to MP3s, or with my MP3 collection when I moved to Spotify. Books to Kindle. Photos to Dropbox and Facebook. Notebooks to Hackpad. Nearly all of my content is in the cloud.
 
 The cloud movement isn't restricted to computing capacity anymore. Zipcar is the cloud for cars. Exec is the cloud for secretarial work. And though there isn't a "cloud" for housing, AirBnB, Craigslist, and VRBO are getting close.
 
