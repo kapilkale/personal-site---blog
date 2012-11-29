@@ -3,6 +3,7 @@ layout: post
 title: "The Housing Cloud"
 date_published: "11/28/2012" 
 author: Kapil
+published: false
 ---
 
 I threw out my DVD collection today. Rebel Without a Cause. Ocean's Eleven. Gone. I own most of them on Amazon Instant Video, so I didn't need them anymore.
