@@ -9,7 +9,7 @@ I threw out my DVD collection today. I've had these DVDs for 6 or 7 years and us
 
 It didn't make sense to keep them. I already have them on Amazon, which streams to every device I own and takes up no space. It's the same thing I did with my CD collection 10 years ago when I moved to MP3s. And the same thing I did with my MP3s when I moved to Spotify. Books to Kindle. Photos to Dropbox and Facebook. Notebooks to Hackpad.
 
-Today's cloud movement isn't restricted to virtual goods. Zipcar is the cloud for cars. Exec is the cloud for secretarial work. And though there isn't a "cloud" for housing, AirBnB, Craigslist, and VRBO are getting close.\[1\] 
+Today's cloud movement isn't restricted to virtual goods. Zipcar is the cloud for cars. Exec is the cloud for secretarial work. And though there isn't a "cloud" for housing, AirBnB, Craigslist, and VRBO are getting close.
 
 I am convinced that as the system gets better, one day **I'll be able to pay a membership fee and live wherever I want.**
 
