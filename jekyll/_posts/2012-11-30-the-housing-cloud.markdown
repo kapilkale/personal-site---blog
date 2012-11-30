@@ -16,11 +16,13 @@ From 2009 onwards, I've been living in furnished apartments, sublets, vacation r
 
 For some it works really well. [Paul Carr did it](http://www.http://www.amazon.com/The-Upgrade-Cautionary-Reservations-ebook/dp/B005CI2IUA) with hotels. [Sam Lessin](http://www.youtube.com/watch?v=9XOf-GUMCXk) was less positive on his experience. For me, it always felt like a bit of a hack. I spent more time surfing Craigslist, AirBnB, Starwood than I would have liked\[1\]. The transaction costs were non-trivial.
 
-The nature of the problem is uncertain timing. With fixed long-term stays everyone is comfortable signing leases and furnishing apartments. But I don't know if I'm going to be traveling to another city until a couple weeks before. And the periods of stay might be minimal. As a result, I'll be paying for two housing units- my apartment in one location and a hotel in another. I'd rent out my apartment, but there are transaction costs with ramping up a new listing.
+The nature of the problem is uncertain timing. With fixed long-term stays everyone is comfortable signing leases and furnishing apartments. But I don't know if I'm going to be traveling to another city until a couple weeks before. And the periods of stay might be minimal. As a result, I'll be paying for two housing units- my apartment in one location and a hotel in another. 
 
-But over time, these transaction costs are going to drop. AirBnB is one step in that direction. Professional property managers are also another step. But there are many other steps left to get transaction costs down low enough to create an efficient market- marketing a listing, managing inquiries, dealing with guests, having a place cleaned, etc.
+The uncertain timing makes renting out my apartment a pain. I have to worry about posting a listing, managing inquiries, interacting with guests, and having the apartment cleaned. All potentially while I'm out of town. These transaction costs result in an inefficient market.
 
-But when those get solved, I suspect far more people will attempt to live in the housing cloud- moving from place to place without furniture or long-term contracts. Not thinking about "stuff", and spending their time on more valuable things like people, ideas, travel, and work. This lifestyle doesn't appeal to everyone, but these changes will certainly surface the nomads among us.
+However, these transaction costs will go down over time. Airbnb helps market the listings. Property managers help with interactions and cleanings, but at the moment they're expensive and only available for true vacation properties. Once these inconveniences go away, housing will truly be a cloud-like entity.
+
+And at that point, I suspect far more people will attempt to live in the housing cloud- moving from place to place at will. Not thinking about "stuff", and spending their time on more valuable things like people, ideas, travel, and work. This lifestyle doesn't appeal to everyone, but these changes will certainly surface the nomads among us.
 
 ---
 
