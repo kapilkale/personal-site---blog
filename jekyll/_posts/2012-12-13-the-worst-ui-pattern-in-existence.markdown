@@ -6,9 +6,9 @@ author: Kapil
 published: true
 ---
 
-Infinite scroll + footer. Scroll down to get to the footer, and just as you start reading the links the whole thing disappears before you as new content gets inserted into the page. Repeat ad nauseum.
+Infinite scroll + footer. Scroll to the footer, and as you start reading, the whole thing disappears as new content gets inserted into the page. Repeat ad nauseum.
 
-[Facebook](http://www.facebook.com) and [LinkedIn](http://www.linkedin.com)'s homepages use this pattern. Their [world-class design teams](https://www.airbnb.com/meetups/hzfb35n3h-design-talk-ben-blumenfeld) are aware of its flaws, given their half-hearted attempts to monkeypatch the problem.
+[Facebook](http://www.facebook.com) and [LinkedIn](http://www.linkedin.com)'s news feeds use this pattern. Moreover, their [world-class design teams](https://www.airbnb.com/meetups/hzfb35n3h-design-talk-ben-blumenfeld) are doing this knowingly, given their half-hearted attempts to monkeypatch the problem.
 
 LinkedIn's solution is to end the infinite scroll after three reloads. But as a result, a user has to deal with 3 terrible UI events before they get what they want. Will they overcome the [conditioning](http://www.daviesscoll.u-net.com/joc/students/assignments/asassignments/classical.htm) or just give up?
 
