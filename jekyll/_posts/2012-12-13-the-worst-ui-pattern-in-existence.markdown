@@ -3,7 +3,7 @@ layout: post
 title: "The Worst UI Pattern in Existence"
 date_published: "12/13/2012" 
 author: Kapil
-published: true
+published: false
 ---
 
 Infinite scroll + footer. Scroll through page content to the footer. As you start reading the footer links, the site injects new content into the page and the footer gets pushed down below the fold. Repeat ad nauseum.
@@ -16,4 +16,4 @@ Facebook's solution is smarter- they put footer links in the right sidebar, whic
 
 The first footer flirts with you for a moment before it disappears under the additional news feed content. That brief glimpse distracts from the second footer; I'd bet most users don't even see it. I think both footers have the same content, but I haven't had a long enough look at the bottom footer to know what's there.
 
-Come on, guys.
+What's the solution?
