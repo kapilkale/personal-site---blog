@@ -54,7 +54,7 @@ img#email_address {
 
 /* line 54, ../../sass/application.scss */
 .footer {
-  margin: 25px 0;
+  margin: 40px 0 30px 0;
   padding-top: 5px;
   color: #ccc;
   font-size: 12px;
@@ -70,17 +70,25 @@ img#email_address {
   color: #4A4;
 }
 
-/* line 71, ../../sass/application.scss */
+/* line 69, ../../sass/application.scss */
+.spacer {
+  text-align: center;
+  margin: 25px 0;
+  font-size: 10px;
+  color: #aaa;
+}
+
+/* line 78, ../../sass/application.scss */
 body#home #container {
   width: 300px;
 }
 
-/* line 77, ../../sass/application.scss */
+/* line 84, ../../sass/application.scss */
 ol, ul {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 80, ../../sass/application.scss */
+/* line 87, ../../sass/application.scss */
 ol li, ul li {
   font-size: 13px;
   line-height: 150%;
@@ -91,23 +99,23 @@ ol li, ul li {
 /*
  * ---------- blog ---------- *
  */
-/* line 94, ../../sass/application.scss */
+/* line 101, ../../sass/application.scss */
 body#post h2.post_title {
   margin-bottom: 5px;
 }
-/* line 97, ../../sass/application.scss */
+/* line 104, ../../sass/application.scss */
 body#post p.post_subheader {
   color: #999;
   margin: 0 0 20px 0;
 }
 
-/* line 103, ../../sass/application.scss */
+/* line 110, ../../sass/application.scss */
 .social_buttons {
   float: right;
   overflow: hidden;
   padding-top: 4px;
 }
-/* line 107, ../../sass/application.scss */
+/* line 114, ../../sass/application.scss */
 .social_buttons div {
   float: right;
   padding-left: 4px;

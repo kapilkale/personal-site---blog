@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Worst UI Pattern in Existence | Kapil Kale's Blog</title>
+    <link href="/stylesheets/application.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34881072-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </head>
+
+
+  <body id="post">
+    <div id="all_content">
+      <div id="container">
+        <div class="social_buttons">
+          <div>
+            <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.kapilkale.com/blog/the-worst-ui-pattern-in-existence/" data-count="vertical" data-text="The Worst UI Pattern in Existence" data-via="kapilvkale">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+          </div>
+          <div>
+            <iframe src="http://www.facebook.com/plugins/like.php?app_id=420987101301986&amp;href=http://www.kapilkale.com/blog/the-worst-ui-pattern-in-existence/&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:70px; padding-top:2px;" allowTransparency="true"></iframe>
+          </div>
+        </div>
+        <!-- post info -->
+        <h2 class="post_title"><a href="/blog/the-worst-ui-pattern-in-existence/">The Worst UI Pattern in Existence</a></h2>
+
+        <p class="post_subheader">12/13/2012 by Kapil</p>
+
+        <div class="post_content">
+          <p>Infinite scroll + footer. Scroll through page content to the footer. As you start reading the footer links, the site injects new content into the page and the footer gets pushed down below the fold. Repeat ad nauseum.</p>
+
+<p><a href='http://www.facebook.com'>Facebook</a> and <a href='http://www.linkedin.com'>LinkedIn</a>&#8217;s news feeds use this pattern. I get that most Facebook &amp; Linkedin users don&#8217;t need to touch the footer, but this doesn&#8217;t excuse a terrible UI for those that do. Especially when better design options are available.</p>
+
+<p>Their design teams are aware of the issue, but their &#8220;fixes&#8221; aren&#8217;t very good.</p>
+
+<p>LinkedIn&#8217;s solution is to end the infinite scroll after three reloads. But as a result, a user has to deal with 3 terrible UI events before they get what they want. Will they overcome the <a href='http://www.daviesscoll.u-net.com/joc/students/assignments/asassignments/classical.htm'>conditioning</a> or just give up?</p>
+<img src='/linkedin_footer.jpg' width='400px' />
+<p>Facebook&#8217;s solution is smarter- they put footer links in the right sidebar, which is excluded from the infinte scroll. But there&#8217;s a second footer- the normal footer- at the bottom of the page where expected:</p>
+<img src='/footer.jpg' width='400px' />
+<p>There are two problems with this design.</p>
+
+<p>First, The brief glimpse of the first footer distracts from the existence of the nontraditionally-placed second footer; I&#8217;d bet most users don&#8217;t even see footer #2.</p>
+
+<p>Second: Footer #2 doesn&#8217;t have the full set of links. For example, you&#8217;d miss the &#8220;developers&#8221; link because it&#8217;s buried under &#8220;more&#8221;. Which makes a user want to chase footer #1 all the more.</p>
+
+<p>My proposed solution: get rid of the normal footer, and list a full set of links in footer #2. When people scroll down looking for footer links, they&#8217;ll won&#8217;t see a footer in the normal place, but instead see the floating footer on the right.</p>
+<img src='/footer_correct.jpg' width='400px' /><br /><br />
+        </div>
+
+        <a href="https://twitter.com/kapilvkale" class="twitter-follow-button" data-show-count="false">Follow @kapilvkale</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        <div class="footer">
+          <a href="/">Home</a>
+          <a href="/blog">Blog</a>
+        </div>
+        <div class="comment_box">
+          <fb:comments href="http://www.kapilkale.com/blog/the-worst-ui-pattern-in-existence/" num_posts="10" width="400px"></fb:comments>
+          <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+        </div>
+        <div class="spacer">
+          (c) Kapil Kale
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
