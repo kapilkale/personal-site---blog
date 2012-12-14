@@ -6,7 +6,7 @@ author: Kapil
 published: true
 ---
 
-Infinite scroll + footer. Scroll to the footer, and as you start reading, the whole thing disappears as new content gets inserted into the page. Repeat ad nauseum.
+Infinite scroll + footer. Scroll through page content to the footer. As you start reading the footer links, the site injects new content into the page and the footer gets pushed down below the fold. Repeat ad nauseum.
 
 [Facebook](http://www.facebook.com) and [LinkedIn](http://www.linkedin.com)'s news feeds use this pattern. Moreover, their [world-class design teams](https://www.airbnb.com/meetups/hzfb35n3h-design-talk-ben-blumenfeld) are doing this knowingly, given their half-hearted attempts to monkeypatch the problem.
 
