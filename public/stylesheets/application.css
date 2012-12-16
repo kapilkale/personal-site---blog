@@ -145,33 +145,35 @@ body#post p.post_subheader {
 
   /* line 136, ../../sass/application.scss */
   p {
-    font-size: 32px;
+    font-size: 36px;
+    margin: 50px 0;
   }
 
-  /* line 139, ../../sass/application.scss */
+  /* line 140, ../../sass/application.scss */
   h2 {
     font-size: 90px;
     color: #333;
   }
-  /* line 142, ../../sass/application.scss */
+  /* line 143, ../../sass/application.scss */
   h2 a {
     color: #333;
   }
 
-  /* line 146, ../../sass/application.scss */
+  /* line 147, ../../sass/application.scss */
   h2.post_title {
     font-size: 60px;
     color: #333;
   }
 
-  /* line 150, ../../sass/application.scss */
+  /* line 151, ../../sass/application.scss */
   p.post_subheader {
-    font-size: 32px;
+    font-size: 36px;
+    line-height: 150%;
     color: #999;
     margin: 0 0 20px 0;
   }
 
-  /* line 156, ../../sass/application.scss */
+  /* line 158, ../../sass/application.scss */
   .footer a {
     font-size: 32px;
   }
