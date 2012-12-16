@@ -125,8 +125,16 @@ body#post {
   #container {
     width: 90%;
   }
+  body#home {
+    #container {
+      width: 90%;
+    }
+  }
   p {
     font-size: 32px;
+  }
+  h2 {
+    font-size: 90px;
   }
   h2.post_title {
     font-size: 60px;
@@ -135,5 +143,10 @@ body#post {
     font-size: 32px;
     color: #999;
     margin: 0 0 20px 0;
+  }
+  .footer {
+    a {
+      font-size: 32px;
+    }
   }
 }

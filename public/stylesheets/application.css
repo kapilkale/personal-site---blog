@@ -133,20 +133,35 @@ body#post p.post_subheader {
     width: 90%;
   }
 
-  /* line 128, ../../sass/application.scss */
+  /* line 129, ../../sass/application.scss */
+  body#home #container {
+    width: 90%;
+  }
+
+  /* line 133, ../../sass/application.scss */
   p {
     font-size: 32px;
   }
 
-  /* line 131, ../../sass/application.scss */
+  /* line 136, ../../sass/application.scss */
+  h2 {
+    font-size: 90px;
+  }
+
+  /* line 139, ../../sass/application.scss */
   h2.post_title {
     font-size: 60px;
   }
 
-  /* line 134, ../../sass/application.scss */
+  /* line 142, ../../sass/application.scss */
   p.post_subheader {
     font-size: 32px;
     color: #999;
     margin: 0 0 20px 0;
+  }
+
+  /* line 148, ../../sass/application.scss */
+  .footer a {
+    font-size: 32px;
   }
 }
