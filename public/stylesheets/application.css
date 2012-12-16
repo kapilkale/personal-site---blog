@@ -120,3 +120,33 @@ body#post p.post_subheader {
   float: right;
   padding-left: 4px;
 }
+
+@media only screen and (max-device-width: 480px) {
+  /* line 121, ../../sass/application.scss */
+  #all_content {
+    min-width: none;
+    width: auto;
+  }
+
+  /* line 125, ../../sass/application.scss */
+  #container {
+    width: 90%;
+  }
+
+  /* line 128, ../../sass/application.scss */
+  p {
+    font-size: 32px;
+  }
+
+  /* line 131, ../../sass/application.scss */
+  h2.post_title {
+    font-size: 60px;
+  }
+
+  /* line 134, ../../sass/application.scss */
+  p.post_subheader {
+    font-size: 32px;
+    color: #999;
+    margin: 0 0 20px 0;
+  }
+}

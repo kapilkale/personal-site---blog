@@ -1,5 +1,5 @@
 hacker news semantic analysis- semantia
 
-leverage in distribution- what it means and why it can be important
+mobile design
 
-the worst UI design of all time- infinite scroll with a footer
+leverage in distribution- what it means and why it can be important

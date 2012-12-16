@@ -116,3 +116,24 @@ body#post {
     padding-left: 4px;
   }
 }
+
+@media only screen and (max-device-width: 480px) {
+  #all_content {
+    min-width: none;
+    width: auto;
+  }
+  #container {
+    width: 90%;
+  }
+  p {
+    font-size: 32px;
+  }
+  h2.post_title {
+    font-size: 60px;
+  }
+  p.post_subheader {
+    font-size: 32px;
+    color: #999;
+    margin: 0 0 20px 0;
+  }
+}
