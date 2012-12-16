@@ -139,28 +139,39 @@ body#post p.post_subheader {
   }
 
   /* line 133, ../../sass/application.scss */
+  a {
+    color: #4A4;
+  }
+
+  /* line 136, ../../sass/application.scss */
   p {
     font-size: 32px;
   }
 
-  /* line 136, ../../sass/application.scss */
+  /* line 139, ../../sass/application.scss */
   h2 {
     font-size: 90px;
+    color: #333;
+  }
+  /* line 142, ../../sass/application.scss */
+  h2 a {
+    color: #333;
   }
 
-  /* line 139, ../../sass/application.scss */
+  /* line 146, ../../sass/application.scss */
   h2.post_title {
     font-size: 60px;
+    color: #333;
   }
 
-  /* line 142, ../../sass/application.scss */
+  /* line 150, ../../sass/application.scss */
   p.post_subheader {
     font-size: 32px;
     color: #999;
     margin: 0 0 20px 0;
   }
 
-  /* line 148, ../../sass/application.scss */
+  /* line 156, ../../sass/application.scss */
   .footer a {
     font-size: 32px;
   }

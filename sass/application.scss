@@ -130,14 +130,22 @@ body#post {
       width: 90%;
     }
   }
+  a {
+    color: #4A4;
+  }
   p {
     font-size: 32px;
   }
   h2 {
     font-size: 90px;
+    color: #333;
+    a {
+      color: #333;
+    }
   }
   h2.post_title {
     font-size: 60px;
+    color: #333;
   }
   p.post_subheader {
     font-size: 32px;
