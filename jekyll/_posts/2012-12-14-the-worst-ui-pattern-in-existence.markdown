@@ -8,7 +8,7 @@ published: true
 
 Infinite scroll + footer. Scroll through page content to the footer. As you start reading the footer links, the site injects new content into the page and the footer gets pushed down below the fold. Repeat ad nauseum.
 
-[Facebook](http://www.facebook.com) and [LinkedIn](http://www.linkedin.com)'s news feeds use this pattern. I get that most Facebook & Linkedin users don't need to touch the footer, but this doesn't excuse a terrible UI for those that do. Especially when better design options are available.
+Facebook and LinkedIn's news feeds use this pattern. I get that most Facebook & Linkedin users don't need to touch the footer, but this doesn't excuse a terrible UI for those that do. Especially when better design options are available.
 
 Their design teams are aware of the issue, but their "fixes" aren't very good.
 
@@ -22,11 +22,11 @@ Facebook's solution is smarter- they put footer links in the right sidebar, whic
 
 There are two problems with this design.
 
-First, The brief glimpse of the first footer distracts from the existence of the nontraditionally-placed second footer; I'd bet most users don't even see footer #2.
+First: the brief glimpse of the first footer distracts from the existence of the nontraditionally-placed second footer; I'd bet most users don't even see footer #2.
 
-Second: Footer #2 doesn't have the full set of links. For example, you'd miss the "developers" link because it's buried under "more". Which makes a user want to chase footer #1 all the more.
+Second: footer #2 doesn't have the full set of links. For example, you'd miss the "developers" link because it's buried under "more". Which makes a user want to chase footer #1 all the more.
 
-My proposed solution: get rid of the normal footer, and list a full set of links in footer #2.  When people scroll down looking for footer links, they'll won't see a footer in the normal place, but instead see the floating footer on the right.
+As a UI guy at [GiftRocket](http://www.giftrocket.com), here's what I'd do: get rid of the normal footer, and list a full set of links in footer #2.  When people scroll down looking for footer links, they'll won't see a footer in the normal place, but instead see the floating footer on the right.
 
 <img src="/footer_correct.jpg" width="400px">
 
