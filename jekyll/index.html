@@ -4,6 +4,14 @@ title: Blog Home
 ---
 
 {% for post in site.posts limit:5 %}
+  <div class="social_buttons">
+    <div>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.kapilkale.com/blog{{ post.url }}" data-count="vertical" data-text="{{ page.title }}" data-via="kapilvkale">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </div>
+    <div>
+      <iframe src="http://www.facebook.com/plugins/like.php?app_id=420987101301986&amp;href=http://www.kapilkale.com/blog{{ post.url }}&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:70px; padding-top:2px;" allowTransparency="true"></iframe>
+    </div>
+  </div>
   <h2 class="post_title"><a href="/blog{{ post.url }}">{{ post.title }}</a></h2>
   <p class="post_subheader">{{ post.date_published }} by {{ post.author }}</p>
   <div class="post_content">
