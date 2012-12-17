@@ -12,7 +12,9 @@ It's the same thing I did with my CD collection 10 years ago when I moved to MP3
 
 Physical things are moving to the cloud too. Zipcar is the cloud for cars. Exec is the cloud for secretarial work. And though there isn't a "cloud" for housing, AirBnB, Craigslist, and VRBO are getting close.
 
-From 2009 onwards, I've been living in furnished apartments, sublets, vacation rentals, or hotels. The benefits have been amazing. I rarely bought household goods or furniture, avoided dealing with maintenance or repair, and signed only short-term contracts. [Earth Class Mail](http://www.earthclassmail.com) disentangled my permanent mailing address from where I was currently living. The resulting mobility enabled me to live in six different cities in three years. My housing situation felt like borrowing movies on Netflix or spinning up instances on AWS. 
+From 2009 onwards, I've been living in furnished apartments, sublets, vacation rentals, or [hotels](http://www.giftrocket.com/gift-cards/hotels). The benefits have been amazing. I rarely bought household goods or furniture, avoided dealing with maintenance or repair, and signed only short-term contracts. Earth Class Mail disentangled my permanent mailing address from where I was currently living. The resulting mobility enabled me to live in six different cities in three years. My housing situation felt like borrowing movies on Netflix or spinning up instances on AWS.
+
+Working for [GiftRocket](http://www.giftrocket.com/) has given me flexibility in where I can work.
 
 For some it works really well. [Paul Carr did it](http://www.amazon.com/The-Upgrade-Cautionary-Reservations-ebook/dp/B005CI2IUA) with hotels. [Sam Lessin](http://www.youtube.com/watch?v=9XOf-GUMCXk) was less positive on his experience. For me, it always felt like a bit of a hack. I spent more time surfing Craigslist, AirBnB, Starwood than I would have liked\[1\]. The transaction costs were non-trivial.
 

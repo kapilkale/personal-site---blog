@@ -26,7 +26,7 @@ First: the brief glimpse of the first footer distracts from the existence of the
 
 Second: footer #2 doesn't have the full set of links. For example, you'd miss the "developers" link because it's buried under "more". Which makes a user want to chase footer #1 all the more.
 
-As a UI guy at [GiftRocket](http://www.giftrocket.com), here's what I'd do: get rid of the normal footer, and list a full set of links in footer #2.  When people scroll down looking for footer links, they'll won't see a footer in the normal place, but instead see the floating footer on the right.
+As a UI guy at [GiftRocket](http://www.giftrocket.com/gift-cards/restaurants), here's what I'd do: get rid of the normal footer, and list a full set of links in footer #2.  When people scroll down looking for footer links, they'll won't see a footer in the normal place, but instead see the floating footer on the right.
 
 <img src="/footer_correct.jpg" width="400px">
 
