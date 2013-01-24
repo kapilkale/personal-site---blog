@@ -36,4 +36,4 @@ Please, GMail, take my money.
 
 \[2\] Gmail makes a 99.9% uptime promise in the [Google Apps SLA](http://www.google.com/apps/intl/en/terms/sla.html). I have no idea how this sort of lag gets accounted for in their uptime calcs.
 
-\[3\]Attachments seem to have no impact.
+\[3\] Attachments seem to have no impact.
