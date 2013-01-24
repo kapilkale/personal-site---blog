@@ -3,7 +3,7 @@ layout: post
 title: "The Black Hat Guide to Settlers of Catan"
 date_published: "1/2/2013"
 author: Kapil
-published: true
+published: false
 ---
 
 If Silicon Valley had an official sport, it would be [Settlers of Catan](http://en.wikipedia.org/wiki/The_Settlers_of_Catan). I played for the first time within days of moving here, and haven't stopped since. I've heard legends of investors playing with startup founders for convertible notes.

@@ -3,7 +3,7 @@ layout: post
 title: "Used Paper Books are Cheaper Than Kindle"
 date_published: "1/2/2013"
 author: Kapil
-published: true
+published: false
 ---
 
 I noticed something interesting happening in my Amazon purchase behavior over the last few months. I've been going the route of physical books over Kindle editions, largely because they're so much cheaper.
