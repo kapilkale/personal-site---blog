@@ -22,7 +22,7 @@ I'm not sure about prevalence; in fact, one of my motivations in writing this is
 
 Please fix it Google. And if you can't, do two things:
 
-1. Create a Gmail uptime notifier. Like [Heroku](http://status.heroku.com) or [Stripe](https://status.stripe.com). If I don't get something I'm expecting, it'd be nice to know that one of the mail servers is backed up or undergoing maintenance.
+1. Create a Gmail uptime notifier. Like [Heroku](http://status.heroku.com) or [Stripe](https://status.stripe.com). If I don't get something I'm expecting, it'd be nice to know that one of the mail servers is backed up or undergoing maintenance. EDIT: [it exists](http://www.google.com/appsstatus)
 
 2. Take my money. I'd pay $50 / month to get reliable service; others would be willing to pay [orders of magnitude more](http://paulgraham.com/ambitious.html).
 
