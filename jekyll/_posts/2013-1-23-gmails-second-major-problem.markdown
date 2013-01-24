@@ -14,7 +14,7 @@ The second is delivery time. Mail can take hours to get delivered, and it is Goo
 
 I know it is Google's fault because the email headers identify the source of the lag to be Google's mail servers. Here's an example of a delayed email, parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
 
-<a href="/gmail_leg_full.jpg"><img src="/gmail_lag_small.jpg"></a>
+<a href="/gmail_lag_full.jpg"><img src="/gmail_lag_small.jpg"></a>
 
 This particular email was important enough that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them. For people who live on email, this is unacceptable.
 
