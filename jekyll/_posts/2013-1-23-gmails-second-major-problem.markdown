@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "GMail's Second Major Problem"
+title: "Gmail's Second Major Problem"
 date_published: "1/24/2013"
 author: Kapil
 published: true
 ---
 
-GMail's first problem is UX speed, and it's been well documented by others. \[a\]
+Gmail's first problem is UX speed, and it's been well documented by others. \[a\]
 
 The second is a **sporadic but massive delivery lag**. Where emails arrive in my inbox hours after they were sent.
 
@@ -22,7 +22,7 @@ I'm not sure about prevalence; in fact, one of my motivations in writing this is
 
 Please fix it Google. And if you can't, do two things:
 
-1. Create a GMail uptime notifier. Like [Heroku](http://status.heroku.com) or [Stripe](https://status.stripe.com). If I don't get something I'm expecting, it'd be nice to know that one of the mail servers is backed up or undergoing maintenance.
+1. Create a Gmail uptime notifier. Like [Heroku](http://status.heroku.com) or [Stripe](https://status.stripe.com). If I don't get something I'm expecting, it'd be nice to know that one of the mail servers is backed up or undergoing maintenance.
 
 2. Take my money. I'd pay $50 / month to get reliable service; others would be willing to pay [orders of magnitude more](http://paulgraham.com/ambitious.html).
 
