@@ -18,7 +18,7 @@ This particular email was so important that I had to get on the phone with the s
 
 This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Attachments seem to have no impact. The sender has no impact either- it happens with people I email 20 times a day within the same Google Apps account. \[b\]
 
-I'm not sure about prevalence; in fact, one of my motivations in writing this is to see how many other people this is happening to.
+I'm not sure about prevalence; in fact, one of my motivations in writing this is to see how many other people this is happening to. Google has seen and solved [problems like this before](http://thenextweb.com/google/2012/04/03/google-says-an-issue-with-gmail-is-delaying-under-3-of-messages-with-attachments/), but mine seems to be different. Their own support page [gives no reason](http://support.google.com/mail/bin/answer.py?hl=en&answer=82458).
 
 Please fix it Google. And if you can't, do two things:
 
