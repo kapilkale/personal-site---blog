@@ -12,13 +12,13 @@ The first is UX speed. This has been brought up time and time again so I'll igno
 
 The second is delivery time. Mail can take hours to get delivered, and it is Google's fault.
 
-The headers tell me it is Google's fault. Here's an example of a delayed email, parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
+I know it is Google's fault because the email headers identify the source of the lag to be Google's mail servers. Here's an example of a delayed email, parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
 
 <a href="/gmail_leg_full.jpg"><img src="/gmail_lag_small.jpg"></a>
 
-The email was important enough that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them. For people who live on email, this is unacceptable.
+This particular email was important enough that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them. For people who live on email, this is unacceptable.
 
-Another example: at [GiftRocket](http://www.giftrocket.com), we do some team discussions over email. When lag happens, responses to a thread come in out of order and make participation difficult.
+This sort of thing leads to all sorts of problems. For example, at [GiftRocket](http://www.giftrocket.com), we do team discussions over email. When lag happens duringt hose discussions, responses to a thread arrive out of order and result in confusion about context.
 
 This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Let me know via HN or a comment if you've experienced this too so I have a gauge on how widespread the problem is. \[2\], \[3\]
 
