@@ -12,7 +12,7 @@ The first is UX speed, and it has been brought up time and time again so I'll ig
 
 The second is delivery time. Mail can take hours to get delivered, and it is Google's fault.
 
-If this happens to you, you can diagnose by looking at the headers. Google provides a [header analyzer](https://toolbox.googleapps.com/apps/messageheader/) to parse them for you. Here's an example of a delayed email:
+The headers tell me it is Google's fault. Here's an example of a delayed email, parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
 
 <a href="/gmail_leg_full.jpg"><img src="/gmail_lag_small.jpg"></a>
 
