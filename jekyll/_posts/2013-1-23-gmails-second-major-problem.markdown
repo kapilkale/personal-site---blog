@@ -8,9 +8,9 @@ published: true
 
 GMail's first problem is UX speed, and it's been well documented by others. \[1\]
 
-The second is delivery time. Emails regularly arrive in my inbox hours late due to problems with Google's email servers. I don't know how prevalent this is, but I doubt I'm the only one.
+The second is frequent, massive lags in delivery time. Where emails arrive in my inbox hours after they were sent.
 
-Here's an example of a delayed email, with headers parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
+This is a problem with Google's mail servers. Here's an example of a delayed email, with headers parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
 
 <a href="/gmail_lag_full.jpg"><img src="/gmail_lag_small.jpg"></a>
 
