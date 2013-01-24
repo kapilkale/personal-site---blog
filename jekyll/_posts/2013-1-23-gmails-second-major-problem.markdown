@@ -8,7 +8,7 @@ published: true
 
 GMail's first problem is UX speed, and it's been well documented by others. \[1\]
 
-The second is a sporadic but massive delivery lag. Where emails arrive in my inbox hours after they were sent.
+The second is a **sporadic but massive delivery lag**. Where emails arrive in my inbox hours after they were sent.
 
 This is a problem with Google's mail servers. Here's an example of an email with a 2 hour delivery lag (headers parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/)):
 
