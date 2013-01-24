@@ -20,7 +20,7 @@ The email was important enough that I had to get on the phone with the sender. H
 
 Another example: at [GiftRocket](http://www.giftrocket.com), we do some team discussions over email. When lag happens, responses to a thread come in out of order and make participation difficult.
 
-This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Let me know via HN or a comment if you've experienced this too so I have a gauge on how widespread the problem is. \[2\]
+This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Let me know via HN or a comment if you've experienced this too so I have a gauge on how widespread the problem is. \[2\], \[3\]
 
 I don't know what the solution is. But I do know this:
 
@@ -35,3 +35,5 @@ Please, GMail, take my money.
 \[1\]  My friend Jack from [SeatGeek](http://www.seatgeek.com/super-bowl-tickets) did an outstanding job [identifying the cause](http://jackg.org/gmail-as-a-facade). Paul Graham has explained it best when he said ["If you made something no better than GMail, but fast, that alone would let you start to pull users away from GMail."](http://paulgraham.com/ambitious.html).
 
 \[2\] Gmail makes a 99.9% uptime promise in the [Google Apps SLA](http://www.google.com/apps/intl/en/terms/sla.html). I have no idea how this sort of lag gets accounted for in their uptime calcs.
+
+\[3\]Attachments seem to have no impact.
