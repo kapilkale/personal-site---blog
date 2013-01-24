@@ -8,15 +8,17 @@ published: true
 
 GMail's first problem is UX speed, and it's been well documented by others. \[1\]
 
-The second is frequent, massive lags in delivery time. Where emails arrive in my inbox hours after they were sent.
+The second is a sporadic but massive delivery lag. Where emails arrive in my inbox hours after they were sent.
 
-This is a problem with Google's mail servers. Here's an example of a delayed email, with headers parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
+This is a problem with Google's mail servers. Here's an example of an email with a 2 hour delivery lag (headers parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/)):
 
 <a href="/gmail_lag_full.jpg"><img src="/gmail_lag_small.jpg"></a>
 
-This particular email was so important that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them. This even happens with people I email 20 times a day (my co-founders). \[2\]
+This particular email was so important that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them.
 
-This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Attachments seem to have no impact. I'm not sure about prevalence; in fact, one of my motivations in writing this is to see how many other people this is happening to.
+This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Attachments seem to have no impact. The sender has no impact either- it happens with people I email 20 times a day. \[2\]
+
+I'm not sure about prevalence; in fact, one of my motivations in writing this is to see how many other people this is happening to.
 
 Please fix it Google. And if you can't, do two things:
 
