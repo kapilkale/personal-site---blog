@@ -34,37 +34,31 @@
   <h2 class="post_title"><a href="/blog/gmails-second-major-problem/">GMail's Second Major Problem</a></h2>
   <p class="post_subheader">1/23/2013 by Kapil</p>
   <div class="post_content">
-    <p>GMail is a brilliant piece of software. But it&#8217;s got some flaws.</p>
+    <p>GMail&#8217;s first problem is UX speed, and it&#8217;s been well documented by others. [1]</p>
 
-<p>The first is UX speed. This has been brought up time and time again so I&#8217;ll ignore. [1]</p>
+<p>The second is delivery time. Emails regularly arrive in my inbox hours late due to problems with Google&#8217;s email servers. I don&#8217;t know how prevalent this is, but I doubt I&#8217;m the only one.</p>
 
-<p>The second is delivery time. Mail can take hours to get delivered, and it is Google&#8217;s fault.</p>
-
-<p>I know it is Google&#8217;s fault because the email headers identify the source of the lag to be Google&#8217;s mail servers. Here&#8217;s an example of a delayed email, parsed by Google&#8217;s <a href='https://toolbox.googleapps.com/apps/messageheader/'>header analyzer</a>:</p>
+<p>Here&#8217;s an example of a delayed email, with headers parsed by Google&#8217;s <a href='https://toolbox.googleapps.com/apps/messageheader/'>header analyzer</a>:</p>
 <a href='/gmail_lag_full.jpg'><img src='/gmail_lag_small.jpg' /></a>
-<p>This particular email was important enough that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them. For people who live on email, this is unacceptable.</p>
+<p>This particular email was so important that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them. This even happens with people I email 20 times a day (my co-founders). [2]</p>
 
-<p>This sort of thing leads to all sorts of problems. For example, at <a href='http://www.giftrocket.com'>GiftRocket</a>, we do team discussions over email. When lag happens duringt hose discussions, responses to a thread arrive out of order and result in confusion about context.</p>
+<p>This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Attachments seem to have no impact. I&#8217;m not sure about prevalence; in fact, one of my motivations in writing this is to see how many other people this is happening to.</p>
 
-<p>This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Let me know via HN or a comment if you&#8217;ve experienced this too so I have a gauge on how widespread the problem is. [2], [3]</p>
-
-<p>I don&#8217;t know what the solution is. But I do know this:</p>
+<p>Assuming this isn&#8217;t a one-off, Google needs to do two things:</p>
 
 <ol>
 <li>
-<p>GMail should have an uptime notifier. Like <a href='http://status.heroku.com'>Heroku</a> or <a href='https://status.stripe.com'>Stripe</a>. If I don&#8217;t get something I&#8217;m expecting, it&#8217;d be nice to know that one of the mail servers is backed up or undergoing maintenance.</p>
+<p>Create a GMail uptime notifier. Like <a href='http://status.heroku.com'>Heroku</a> or <a href='https://status.stripe.com'>Stripe</a>. If I don&#8217;t get something I&#8217;m expecting, it&#8217;d be nice to know that one of the mail servers is backed up or undergoing maintenance.</p>
 </li>
 
 <li>
-<p>I&#8217;d pay GMail money to make this go away. I doubt I&#8217;m the only one, given there are others out there <a href='http://paulgraham.com/ambitious.html'>willing to pay $1000 / month for a better product</a>.</p>
+<p>Take my money. I&#8217;d be willing to pay monthly to get reliable service; some would be willing to pay <a href='http://paulgraham.com/ambitious.html'>orders of magnitude more</a>.</p>
 </li>
 </ol>
-
-<p>Please, GMail, take my money.</p>
 <hr />
 <p>[1] My friend Jack from <a href='http://www.seatgeek.com/super-bowl-tickets'>SeatGeek</a> did an outstanding job <a href='http://jackg.org/gmail-as-a-facade'>identifying the cause</a>. Paul Graham has explained it best when he said <a href='http://paulgraham.com/ambitious.html'>&#8220;If you made something no better than GMail, but fast, that alone would let you start to pull users away from GMail.&#8221;</a>.</p>
 
-<p>[2] Gmail makes a 99.9% uptime promise in the <a href='http://www.google.com/apps/intl/en/terms/sla.html'>Google Apps SLA</a>. I have no idea how this sort of lag gets accounted for in their uptime calcs.</p>
+<p>[2] At <a href='http://www.giftrocket.com'>GiftRocket</a> we do team discussions over email. Getting emails out of order results in utter confusion about the proceedings. Threads that were archived get brought back into my inbox because an email from 6 hours before finally arrives.</p>
 
 <p>[3] Attachments seem to have no impact.</p>
   </div>

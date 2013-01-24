@@ -6,34 +6,28 @@ author: Kapil
 published: true
 ---
 
-GMail is a brilliant piece of software. But it's got some flaws.
+GMail's first problem is UX speed, and it's been well documented by others. \[1\]
 
-The first is UX speed. This has been brought up time and time again so I'll ignore. \[1\]
+The second is delivery time. Emails regularly arrive in my inbox hours late due to problems with Google's email servers. I don't know how prevalent this is, but I doubt I'm the only one.
 
-The second is delivery time. Mail can take hours to get delivered, and it is Google's fault.
-
-I know it is Google's fault because the email headers identify the source of the lag to be Google's mail servers. Here's an example of a delayed email, parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
+Here's an example of a delayed email, with headers parsed by Google's [header analyzer](https://toolbox.googleapps.com/apps/messageheader/):
 
 <a href="/gmail_lag_full.jpg"><img src="/gmail_lag_small.jpg"></a>
 
-This particular email was important enough that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them. For people who live on email, this is unacceptable.
+This particular email was so important that I had to get on the phone with the sender. He forwarded 4 additional copies (!) that also had 2 hour delays on them. This even happens with people I email 20 times a day (my co-founders). \[2\]
 
-This sort of thing leads to all sorts of problems. For example, at [GiftRocket](http://www.giftrocket.com), we do team discussions over email. When lag happens duringt hose discussions, responses to a thread arrive out of order and result in confusion about context.
+This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Attachments seem to have no impact. I'm not sure about prevalence; in fact, one of my motivations in writing this is to see how many other people this is happening to.
 
-This issue has happened 2-3 times in the past month. When it happens, it affects 20-30% of the emails coming into my inbox. Let me know via HN or a comment if you've experienced this too so I have a gauge on how widespread the problem is. \[2\], \[3\]
+Assuming this isn't a one-off, Google needs to do two things:
 
-I don't know what the solution is. But I do know this:
+1. Create a GMail uptime notifier. Like [Heroku](http://status.heroku.com) or [Stripe](https://status.stripe.com). If I don't get something I'm expecting, it'd be nice to know that one of the mail servers is backed up or undergoing maintenance.
 
-1. GMail should have an uptime notifier. Like [Heroku](http://status.heroku.com) or [Stripe](https://status.stripe.com). If I don't get something I'm expecting, it'd be nice to know that one of the mail servers is backed up or undergoing maintenance.
-
-2. I'd pay GMail money to make this go away. I doubt I'm the only one, given there are others out there [willing to pay $1000 / month for a better product](http://paulgraham.com/ambitious.html).
-
-Please, GMail, take my money.
+2. Take my money. I'd be willing to pay monthly to get reliable service; some would be willing to pay [orders of magnitude more](http://paulgraham.com/ambitious.html).
 
 ***
 
 \[1\]  My friend Jack from [SeatGeek](http://www.seatgeek.com/super-bowl-tickets) did an outstanding job [identifying the cause](http://jackg.org/gmail-as-a-facade). Paul Graham has explained it best when he said ["If you made something no better than GMail, but fast, that alone would let you start to pull users away from GMail."](http://paulgraham.com/ambitious.html).
 
-\[2\] Gmail makes a 99.9% uptime promise in the [Google Apps SLA](http://www.google.com/apps/intl/en/terms/sla.html). I have no idea how this sort of lag gets accounted for in their uptime calcs.
+\[2\] At [GiftRocket](http://www.giftrocket.com) we do team discussions over email. Getting emails out of order results in utter confusion about the proceedings. Threads that were archived get brought back into my inbox because an email from 6 hours before finally arrives.
 
 \[3\] Attachments seem to have no impact.
