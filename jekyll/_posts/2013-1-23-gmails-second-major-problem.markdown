@@ -6,9 +6,9 @@ author: Kapil
 published: true
 ---
 
-GMail is one of the most brilliant pieces of software I've ever used. But it's got major flaws.
+GMail is a brilliant piece of software. But it's got some flaws.
 
-The first is UX speed, and it has been brought up time and time again so I'll ignore. \[1\]
+The first is UX speed. This has been brought up time and time again so I'll ignore. \[1\]
 
 The second is delivery time. Mail can take hours to get delivered, and it is Google's fault.
 
