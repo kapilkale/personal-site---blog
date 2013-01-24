@@ -38,39 +38,43 @@ p {
 /* line 41, ../../sass/application.scss */
 a {
   text-decoration: none;
-  font-weight: bold;
+  color: #2C91C0;
+}
+
+/* line 45, ../../sass/application.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 48, ../../sass/application.scss */
+h2 a {
   color: #444;
 }
 
-/* line 46, ../../sass/application.scss */
-a:hover {
-  color: #4A4;
-}
-
-/* line 50, ../../sass/application.scss */
+/* line 51, ../../sass/application.scss */
 img#email_address {
   display: none;
 }
 
-/* line 54, ../../sass/application.scss */
+/* line 55, ../../sass/application.scss */
 .footer {
   margin: 40px 0 30px 0;
   padding-top: 5px;
   color: #ccc;
   font-size: 12px;
 }
-/* line 59, ../../sass/application.scss */
+/* line 60, ../../sass/application.scss */
 .footer a {
   color: #888;
   font-weight: normal;
   margin-right: 15px;
 }
-/* line 64, ../../sass/application.scss */
+/* line 65, ../../sass/application.scss */
 .footer a:hover {
   color: #4A4;
 }
 
-/* line 69, ../../sass/application.scss */
+/* line 70, ../../sass/application.scss */
 .spacer {
   text-align: center;
   margin: 25px 0;
@@ -78,17 +82,17 @@ img#email_address {
   color: #aaa;
 }
 
-/* line 78, ../../sass/application.scss */
+/* line 79, ../../sass/application.scss */
 body#home #container {
   width: 300px;
 }
 
-/* line 84, ../../sass/application.scss */
+/* line 85, ../../sass/application.scss */
 ol, ul {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 87, ../../sass/application.scss */
+/* line 88, ../../sass/application.scss */
 ol li, ul li {
   font-size: 13px;
   line-height: 150%;
@@ -99,73 +103,73 @@ ol li, ul li {
 /*
  * ---------- blog ---------- *
  */
-/* line 101, ../../sass/application.scss */
+/* line 102, ../../sass/application.scss */
 body#post h2.post_title {
   margin-bottom: 5px;
 }
-/* line 104, ../../sass/application.scss */
+/* line 105, ../../sass/application.scss */
 body#post p.post_subheader {
   color: #999;
   margin: 0 0 20px 0;
 }
 
-/* line 110, ../../sass/application.scss */
+/* line 111, ../../sass/application.scss */
 .social_buttons {
   float: right;
   overflow: hidden;
   padding-top: 4px;
 }
-/* line 114, ../../sass/application.scss */
+/* line 115, ../../sass/application.scss */
 .social_buttons div {
   float: right;
   padding-left: 4px;
 }
 
 @media only screen and (max-device-width: 480px) {
-  /* line 121, ../../sass/application.scss */
+  /* line 122, ../../sass/application.scss */
   #all_content {
     min-width: none;
     width: auto;
   }
 
-  /* line 125, ../../sass/application.scss */
+  /* line 126, ../../sass/application.scss */
   #container {
     width: 90%;
   }
 
-  /* line 129, ../../sass/application.scss */
+  /* line 130, ../../sass/application.scss */
   body#home #container {
     width: 90%;
   }
 
-  /* line 133, ../../sass/application.scss */
+  /* line 134, ../../sass/application.scss */
   a {
     color: #4A4;
   }
 
-  /* line 136, ../../sass/application.scss */
+  /* line 137, ../../sass/application.scss */
   p {
     font-size: 36px;
     margin: 50px 0;
   }
 
-  /* line 140, ../../sass/application.scss */
+  /* line 141, ../../sass/application.scss */
   h2 {
     font-size: 90px;
     color: #333;
   }
-  /* line 143, ../../sass/application.scss */
+  /* line 144, ../../sass/application.scss */
   h2 a {
     color: #333;
   }
 
-  /* line 147, ../../sass/application.scss */
+  /* line 148, ../../sass/application.scss */
   h2.post_title {
     font-size: 60px;
     color: #333;
   }
 
-  /* line 151, ../../sass/application.scss */
+  /* line 152, ../../sass/application.scss */
   p.post_subheader {
     font-size: 36px;
     line-height: 150%;
@@ -173,7 +177,7 @@ body#post p.post_subheader {
     margin: 0 0 20px 0;
   }
 
-  /* line 158, ../../sass/application.scss */
+  /* line 159, ../../sass/application.scss */
   .footer a {
     font-size: 32px;
   }
