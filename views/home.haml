@@ -15,7 +15,12 @@
       %h2
         Kapil Kale
       %p
-        Currently co-founder @ TownSquare. <b>Looking for talented designers & engineers.</b>
+        Currently co-founder @
+        = succeed "." do
+          %a{:href => "http://www.townsquare.com"}
+            TownSquare
+        %b
+          Looking for talented engineers.
       %p
         Co-founded
         = succeed ", " do
