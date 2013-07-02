@@ -10,7 +10,7 @@ A lot of people say that they want to learn how to code. That's been the reason 
 
 But Codecademy, Treehouse, and other online courses aren't always appropriate. People want to learn how to code for many different reasons, and each motivating factor is actually far more revealing about what people should really be doing to accomplish their goal.
 
-I don't have much data, but based on the 10 or so friends who have had the "I want to learn to code" conversation with me, I bucketed them into three categories.
+I don't have much data, but based on the 10 or so friends who have had the "I want to learn to code" conversation with me, I see three categories:
 
 1. *Coding professionals:* Folks who want to build something themselves or work as a coding professional.
 2. *Non-technical technology professionals:* Folks who want to achieve a technical awareness and general understanding of web and mobile technologies.
@@ -42,7 +42,7 @@ Here's are some of the things they want to know:
 Here's what they don't want to know:
 - Javascript syntax
 - AWS configuration settings
-- How to refactor code
+- The documentation for arrays and hashes in their language of choice
 
 The unfortunate thing is that I haven't found a good online resource for this. The data is scattered all over the web and the friction from googling around and inconsistent presentation of information makes this really really annoying. So free startup idea: someone build this and watch the money come in.
 

@@ -10,6 +10,9 @@ published: false
 angularjs:
 - no good dirty checking
 - ng-model with currency not great
+- so good I think it is putting front-end developers out of work. so much less glue code
+
+angular winning (popularity graph, ycfounders)
 
 ember: impossible to learn
 
