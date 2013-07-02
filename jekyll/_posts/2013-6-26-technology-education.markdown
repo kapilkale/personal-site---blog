@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "The Two Types of Tech Education"
+title: "Modern Tech Education Isn't Addressing An Important Audience"
 date_published: "6/26/2013"
 author: Kapil
 published: true
 ---
 
-A lot of people say that they want to learn how to code. That's been the reason for the success of Codecademy and Treehouse.
+A lot of people say that they want to learn how to code. That's been a reason for the success of Codecademy and Treehouse.
 
 But Codecademy, Treehouse, and other online courses aren't always appropriate. People want to learn how to code for many different reasons, and each motivating factor is actually far more revealing about what people should really be doing to accomplish their goal.
 
