@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modern Tech Education Isn't Addressing An Important Audience"
-date_published: "6/26/2013"
+date_published: "7/2/2013"
 author: Kapil
 published: true
 ---
@@ -52,7 +52,7 @@ Instead, the non-technical tech professionals go to the closest alternative- onl
 
 As a result, you wind up with guys like Bloomberg who are never going to write a line of production javascript in their life, but are making a public commitment to doing it anyway because they want to be tech literate.
 
-The interactive online courses are good for a few things. They get someone up and running with the basics of programming without having to set up a dev environment. The social aspects of the courses help people keep moving forward through the classes. And they give the dabblers a taste of what real coding professionals do. But they fall short for the second group.
+The interactive online courses are good for a few things. They're great for the third group: the dabblers. They get someone up and running with the basics of programming without having to set up a dev environment. The social aspects of the courses help people keep moving forward through the classes. And they give the dabblers a taste of what real coding professionals do. But they fall short for the second group.
 
 
 ### Notes
