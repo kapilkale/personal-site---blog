@@ -46,7 +46,7 @@ Here's what they don't want to know:
 
 The unfortunate thing is that I haven't found a good online resource for this. The data is scattered all over the web and the friction from googling around and inconsistent presentation of information makes this really really annoying. So free startup idea: someone build this and watch the money come in.
 
-Instead, the non-technical tech professionals go to the closest alternative- online coding courses. And they wind up learning Ruby syntax when they really just want to know what it takes to build a new feature on their company's app. It's like teaching assembly language to someone who wants to build websites. The classes teach the wrong layer of abstraction.
+Instead, the non-technical tech professionals go to the closest alternative- online coding courses. And they wind up learning Ruby syntax when they really just want to know what it takes to build a new feature on their company's app. It's like teaching assembly language to someone who wants to build websites. The classes teach the wrong layer of abstraction. \[2\]
 
 <img src="/bloomberg.png" width="400px">
 
@@ -59,3 +59,5 @@ The interactive online courses are good for a few things. They get someone up an
 
 
 \[1\] Learning to code feels a lot like TDD. You want to build a website. So you hear ruby on rails is good way to do that. So you start reading about rails, and then realize you need to have a general understanding of ruby. So you complete a couple ruby tutorials and get relatively comfortable with ruby. Once you've done that, you suddenly realize that you have no understanding of how databases work. So then you read a book about databases. And then you want to make your website look good. So now you have to learn HTML, CSS, and Javascript. Suddenly you've completed a project.
+
+\[2\] Is it even possible to teach someone who doesn't know how to code about these things? I think so. It requires a strong theoretical curriculum, kind of like the one granted to a finance or macroeconomics student who hasn't worked in banking or at the fed.
